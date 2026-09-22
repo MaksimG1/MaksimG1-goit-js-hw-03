@@ -1,4 +1,4 @@
-function makeArray(firstArray, secondArray, maxLength){
+Efunction makeArray(firstArray, secondArray, maxLength){
 const dvaMassiva = firstArray.concat(secondArray);
 if(dvaMassiva.length > maxLength){
     return dvaMassiva.slice(0,maxLength)
